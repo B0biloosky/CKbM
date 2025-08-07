@@ -1,0 +1,270 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceq1cgql0wwjy"]
+
+[ext_resource type="Script" uid="uid://nwd31mv4lmlt" path="res://Assets/Scripts/CKbM.gd" id="1_id1eg"]
+[ext_resource type="Texture2D" uid="uid://cw6a0mm8e0g3l" path="res://Assets/Icon.png" id="2_obofe"]
+
+[node name="CKbM" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 160.0
+offset_bottom = 32.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_id1eg")
+
+[node name="Keybinds List" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 192.0
+offset_bottom = 392.0
+
+[node name="ui" type="VBoxContainer" parent="Keybinds List"]
+layout_mode = 2
+
+[node name="Section Header" type="Label" parent="Keybinds List/ui"]
+layout_mode = 2
+text = "UI Controls:"
+
+[node name="ui_select" type="HBoxContainer" parent="Keybinds List/ui"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/ui/ui_select"]
+layout_mode = 2
+text = "Select"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/ui/ui_select"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/ui/ui_select/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="ui_back" type="HBoxContainer" parent="Keybinds List/ui"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/ui/ui_back"]
+layout_mode = 2
+text = "Back"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/ui/ui_back"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/ui/ui_back/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="ui_up" type="HBoxContainer" parent="Keybinds List/ui"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/ui/ui_up"]
+layout_mode = 2
+text = "Up"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/ui/ui_up"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/ui/ui_up/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="ui_down" type="HBoxContainer" parent="Keybinds List/ui"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/ui/ui_down"]
+layout_mode = 2
+text = "Down"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/ui/ui_down"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/ui/ui_down/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="ui_left" type="HBoxContainer" parent="Keybinds List/ui"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/ui/ui_left"]
+layout_mode = 2
+text = "Left"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/ui/ui_left"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/ui/ui_left/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="ui_right" type="HBoxContainer" parent="Keybinds List/ui"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/ui/ui_right"]
+layout_mode = 2
+text = "Right"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/ui/ui_right"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/ui/ui_right/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="player" type="VBoxContainer" parent="Keybinds List"]
+layout_mode = 2
+
+[node name="Section Header" type="Label" parent="Keybinds List/player"]
+layout_mode = 2
+text = "
+Player Controls:"
+
+[node name="player_up" type="HBoxContainer" parent="Keybinds List/player"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/player/player_up"]
+layout_mode = 2
+text = "Up"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/player/player_up"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/player/player_up/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="player_down" type="HBoxContainer" parent="Keybinds List/player"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/player/player_down"]
+layout_mode = 2
+text = "Down"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/player/player_down"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/player/player_down/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="player_left" type="HBoxContainer" parent="Keybinds List/player"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/player/player_left"]
+layout_mode = 2
+text = "Left"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/player/player_left"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/player/player_left/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="player_right" type="HBoxContainer" parent="Keybinds List/player"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/player/player_right"]
+layout_mode = 2
+text = "Right"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/player/player_right"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/player/player_right/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="player_jump" type="HBoxContainer" parent="Keybinds List/player"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/player/player_jump"]
+layout_mode = 2
+text = "Jump"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/player/player_jump"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/player/player_jump/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="player_crawl" type="HBoxContainer" parent="Keybinds List/player"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Keybinds List/player/player_crawl"]
+layout_mode = 2
+text = "Crawl"
+
+[node name="Button Sizer" type="AspectRatioContainer" parent="Keybinds List/player/player_crawl"]
+layout_mode = 2
+size_flags_horizontal = 3
+ratio = 2.0
+alignment_horizontal = 2
+
+[node name="Button" type="Button" parent="Keybinds List/player/player_crawl/Button Sizer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = " "
+
+[node name="Save Keybinds" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1032.0
+offset_right = 1088.0
+offset_bottom = 32.0
+text = "Save"
+
+[node name="Load Keybinds" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1096.0
+offset_right = 1152.0
+offset_bottom = 32.0
+text = "Load"
+
+[node name="Egg" type="Sprite2D" parent="."]
+position = Vector2(32, -32)
+texture = ExtResource("2_obofe")
+
+[connection signal="pressed" from="Save Keybinds" to="." method="_SaveButtonPressed"]
+[connection signal="pressed" from="Load Keybinds" to="." method="_LoadButtonPressed"]
