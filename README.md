@@ -1,13 +1,13 @@
 # How to use CKbM
 
 ### Questions You May Have
-Q. Do I need to set up an input map?
+Q. Do I need to set up an input map?<br>
 A. No.
 
-Q. Can I use CKbM in my project?
+Q. Can I use CKbM in my project?<br>
 A. You can use CKbM in any project, credit would be lovely (if you credit me you can put me as either Bobiloosky or The Keybind Guy).
 
-Q. Will this get updates>
+Q. Will this get updates? <br>
 A. If people report bugs or suggest good features I'll update it.
 ___
 
