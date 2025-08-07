@@ -4,6 +4,7 @@
 
 The constants are explained within the project in comments, but I'll explain them here aswell.
 * `SAVE_PATH` determines where the keybinds will be saved on a user's computer. Configure the `SAVE_PATH` variable on line `4` to fit your preferences.
+
 * `NONE_KEY` is the key that should be pressed to set a keybind's vvalue to `None`. Configure the `NONE_KEY` variable on line `5` to fit your needs.
 
 
