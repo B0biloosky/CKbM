@@ -1,11 +1,15 @@
 # How to use CKbM
 
 ### Questions You May Have
-* You do NOT need an Input Map for this project to work.
+Q. Do I need to set up an input map?
+A. No.
 
-* You can use CKbM in your projects, credit would be lovely (you can put me as either "Bobiloosky", or "The Keybind Man").
+Q. Can I use CKbM in my project?
+A. You can use CKbM in any project, credit would be lovely (if you credit me you can put me as either Bobiloosky or The Keybind Guy).
 
-* I might update this if someone reports a bug, suggests something, or I get an idea for it.
+Q. Will this get updates>
+A. If people report bugs or suggest good features I'll update it.
+___
 
 ### Configuring Constants
 
@@ -13,7 +17,7 @@ The constants are explained within the project in comments, but I'll explain the
 * `SAVE_PATH` determines where the keybinds will be saved on a user's computer. Configure the `SAVE_PATH` variable on line `4` to fit your preferences.
 
 * `NONE_KEY` is the key that should be pressed to set a keybind's vvalue to `None`. Configure the `NONE_KEY` variable on line `5` to fit your needs.
-
+___
 
 ### Adding keybinds
 
