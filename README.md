@@ -1,5 +1,12 @@
 # How to use CKbM
 
+### Questions You May Have
+* You do NOT need an Input Map for this project to work.
+
+* You can use CKbM in your projects, credit would be lovely (you can put me as either "Bobiloosky", or "The Keybind Man").
+
+* I might update this if someone rports a bug or I get an idea for it.
+
 ### Configuring Constants
 
 The constants are explained within the project in comments, but I'll explain them here aswell.
