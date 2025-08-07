@@ -5,7 +5,7 @@
 
 * You can use CKbM in your projects, credit would be lovely (you can put me as either "Bobiloosky", or "The Keybind Man").
 
-* I might update this if someone reports a bug or I get an idea for it.
+* I might update this if someone reports a bug, suggests something, or I get an idea for it.
 
 ### Configuring Constants
 
