@@ -1,7 +1,7 @@
 extends Control
 
 # CONSTANTS
-const SAVE_PATH: String = "user://Keybinds.cfg" # Change to where you want the keybinds to be saved.         DEFAULT = "user://Keybinds.cfg"
+const SAVE_PATH: String = "user://Keybinds.cfg" # Change to where you want the keybinds to be saved.                     DEFAULT = "user://Keybinds.cfg"
 const NONE_KEY: String = "Escape" # The key that if pressed while configuring a keybind, will set that binf to `None`.   DEFAULT = "KEY_ESCAPEEscape"
 
 # Variables
