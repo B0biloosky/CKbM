@@ -117,7 +117,7 @@ func SetKeybind(Section: String, Name: String):
 func LoadKeybind(Section: String, Name: String):
 	var err = KeybindsSaveFile.load("user://Keybinds.cfg")
 	if err != OK:
-		print(str("[", Time.get_time_string_from_system(), "] [CKbM/INFO] ", "Could not load keybinds."))
+		print(str("[", Time.get_time_string_from_system(), "] [CKbM/ERROR] ", "Could not load keybinds."))
 		return
 	print(str("[", Time.get_time_string_from_system(), "] [CKbM/INFO] ", 'Loaded keybind "', Section, ".", Name, '".'))
 	
